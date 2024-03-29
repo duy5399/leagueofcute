@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 2feffe2e-9a18-452b-b847-790e7a365907
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: asia
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - RPC_LoadHome
+  - RPC_ChangeArenaSkin
+  - RPC_ChangeName
+  - RPC_ChangeParent
+  - RPC_SetNewPosition
+  - SetActiveBench
+  - RPC_SetImageStar
+  - RPC_ChangeCurrentPosition
+  - RPC_StartCombat
+  - RPC_SetName
+  - RPC_SetParent
+  - RPC_SetActive
+  - RPC_SetLevel
+  - SetUsername
+  - RPC_SetUsername
+  - PlayAnimation
+  - RPC_SetParentOnChampion
+  - RPC_TriggerDamage
+  - RPC_TriggerHP
+  - RPC_TriggerMana
+  - RPC_TriggerHeal
+  - RPC_SetColorText
+  - RPC_SetContentText
+  - RPC_TriggerDeath
+  - RPC_OnDeath
+  - RPC_AddItem
+  - RPC_SetAddItem
+  - RPC_TriggerShieldDamage
+  - ActiveDebuff
+  - RPC_ActiveDebuff
+  - RPC_DeactivateDebuff
+  - RPC_DestroySelf
+  - RPC_UpdateLifeTimeLeft
+  - RPC_EnableNavMeshAgent
+  - RPC_SetLocalPosition
+  - RPC_EnablePhotonTransformView
+  - RPC_SetLocalRotation
+  - RPC_SetLocalScale
+  - RPC_Destroy
+  - RPC_SetCritical
+  - RPC_ControlEffect
+  DisableAutoOpenWizard: 1
+  ShowSettings: 0
+  DevRegionSetOnce: 1
